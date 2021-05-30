@@ -1,0 +1,21 @@
+
+1. Clean Architecture
+  - MVC se queda corta en apps modernas
+
+  - Clean architecture simplificada:
+    -> Controllers
+      -> Capa de middlewares y routers
+      -> Se comunica con las APIS
+      -> Recibe o envia JSON
+
+    -> Services (Corazon de la app, logica de negocio)
+      -> Llama otros servidores o librerias
+
+    -> Libreries
+      -> Apis
+      -> Bases de datos en la nube o normales
+
+    Notas:
+      -> Los controladores SOLO llaman servicios
+      -> Los servicios pueden llamar otros servicios o llamar librerias
+      ->
