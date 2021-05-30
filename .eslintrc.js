@@ -16,5 +16,6 @@ module.exports = {
     'indent': ['error', 2],
     'new-cap': 'off',
     'require-jsdoc': 'off',
+    'no-undef': 'off',
   },
 };
